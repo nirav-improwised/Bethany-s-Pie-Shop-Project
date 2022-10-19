@@ -1,0 +1,93 @@
+*{
+    margin: 0px 0px;
+}
+body{
+    background-color: #999;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+}
+header{
+    display: block;
+    width: 100vw;
+    padding: 10px;
+    position: fixed;
+    background-color: #a493c0;
+}
+p{
+    margin: 0.5em 0em;
+}
+nav>ul{
+    display: inline;
+    padding: 0px;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:active{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("images/background.png");
+    min-height: 85vh;
+    padding: 3em 0em;
+    margin:auto;
+}
+article{
+    padding: 2em;
+    width: 75%;
+}
+aside{
+    padding: 2em;
+    margin-left: 2vw;
+    text-align: center;
+}
+footer{
+    padding: 15px;
+}
+.pieColumns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columns{
+    display: flex;
+    justify-content: space-between;
+}
+.pie{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(199, 199, 199);
+}
+.pie .title{
+    font-weight: bold;
+}
+.pie button{
+    background-color: #f7a4a4;
+    border: #f7a4a4;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+/* .price{
+    float: right;
+} */
+
+    /* @media only screen and (max-width: 768px){    
+        main{
+            flex-direction: column;
+        }
+        article{
+            width: 100vw;
+            margin-left: 2vw;
+        }
+    } */
